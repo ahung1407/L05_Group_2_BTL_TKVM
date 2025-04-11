@@ -1,0 +1,49 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/timing/xsim/RISC_CPU_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM32X1S_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD1
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD2
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD3
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD4
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD5
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD6
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD7
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module Accumulator
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-311] analyzing module Instruction_Register
+INFO: [VRFC 10-311] analyzing module Program_counter
+INFO: [VRFC 10-311] analyzing module RISC_CPU_FOR_SYNTHESIS
+INFO: [VRFC 10-311] analyzing module addr_mux
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'ALU' [D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/ALU.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Accumulator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accumulator
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'Accumulator' [D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Accumulator.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'state' is not allowed [D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Controller.v:20]
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'Controller' [D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Controller.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'dataMemory' [D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/DataMemory.v:22]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'instructionMemory' [D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Instruction_Memory.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Instruction_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Register
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'Instruction_Register' [D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Instruction_register.v:22]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Program_counter
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'Program_counter' [D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Program_counter.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/RISC_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/addr_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_mux
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'addr_mux' [D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/addr_mux.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sim_1/new/RISC_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_CPU_tb

@@ -1,0 +1,21 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Accumulator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accumulator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'state' is not allowed [D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Controller.v:20]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Instruction_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/RISC_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/addr_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addr_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sim_1/new/RISC_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_CPU_tb

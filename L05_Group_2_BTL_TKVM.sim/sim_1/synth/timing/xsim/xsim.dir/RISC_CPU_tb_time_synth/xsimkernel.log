@@ -1,0 +1,4 @@
+Running: xsim.dir/RISC_CPU_tb_time_synth/xsimk.exe -simmode gui -wdb RISC_CPU_tb_time_synth.wdb -simrunnum 0 -socket 54729
+Design successfully loaded
+Design Loading Memory Usage: 10492 KB (Peak: 10492 KB)
+Design Loading CPU Usage: 46 ms

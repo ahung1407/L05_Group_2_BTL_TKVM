@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Apr 11 09:26:35 2025
+# Process ID: 21316
+# Current directory: D:/Minh_Hung/L05_Group_2_BTL_TKVM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19996 D:\Minh_Hung\L05_Group_2_BTL_TKVM\L05_Group_2_BTL_TKVM.xpr
+# Log file: D:/Minh_Hung/L05_Group_2_BTL_TKVM/vivado.log
+# Journal file: D:/Minh_Hung/L05_Group_2_BTL_TKVM\vivado.jou
+# Running On        :MINH-HUNG
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :AMD Ryzen 7 8745H w/ Radeon 780M Graphics
+# CPU Frequency     :3793 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :25028 MB
+# Swap memory       :1610 MB
+# Total Virtual     :26638 MB
+# Available Virtual :14187 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.xpr
+update_compile_order -fileset sources_1
+close [ open D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/addr_mux.v w ]
+add_files D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/addr_mux.v
+update_compile_order -fileset sources_1
+close [ open D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/ALU.v w ]
+add_files D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/ALU.v
+update_compile_order -fileset sources_1
+close [ open D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Instruction_Memory.v w ]
+add_files D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Instruction_Memory.v
+close [ open D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Instruction_register.v w ]
+add_files D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Instruction_register.v
+close [ open D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/DataMemory.v w ]
+add_files D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/DataMemory.v
+update_compile_order -fileset sources_1
+close [ open D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/RISC_CPU.v w ]
+add_files D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/RISC_CPU.v
+close [ open D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Controller.v w ]
+add_files D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Controller.v
+update_compile_order -fileset sources_1
+close [ open D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/data_init.mem w ]
+add_files D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/data_init.mem
+close [ open D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/instruction_file.mem w ]
+add_files D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/instruction_file.mem
+export_ip_user_files -of_objects  [get_files D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RISC_CPU [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sim_1/new/RISC_CPU_tb.v w ]
+add_files -fileset sim_1 D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sim_1/new/RISC_CPU_tb.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RISC_CPU_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation

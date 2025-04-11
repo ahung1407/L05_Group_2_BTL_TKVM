@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 module top (
-    input wire sys_clk,           // System clock input (e.g., FPGA clock)
+    input wire clk,           // System clock input (e.g., FPGA clock)
     input wire reset,             // Reset signal
     input wire inc_pc,            // Enable signal for PC update
     input wire iszero,            // Zero flag from ALU
@@ -14,7 +14,7 @@ module top (
 
     // Instantiate the clock divider
     clock_divider clk_div (
-        .clk(sys_clk),    // System clock as input
+        .clk(clk),    // System clock as input
         .reset(reset),    // Reset signal
         .myclk(myclk)     // Divided clock output
     );

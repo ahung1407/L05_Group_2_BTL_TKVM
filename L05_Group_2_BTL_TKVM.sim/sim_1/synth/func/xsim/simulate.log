@@ -1,0 +1,20 @@
+Time resolution is 1 ps
+Starting simulation...
+Time=0 | reset=0, inc_pc=0, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= x
+Time=8000 | reset=1, inc_pc=0, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 0
+Time=24000 | reset=0, inc_pc=0, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 0
+Time=32000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 0
+Time=36000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 1
+Time=44000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 2
+Time=48000 | reset=0, inc_pc=1, SKZ=1, iszero=1, JUMP=0, jump_addr= 0, pc= 2
+Time=52000 | reset=0, inc_pc=1, SKZ=1, iszero=1, JUMP=0, jump_addr= 0, pc= 4
+Time=56000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 4
+Time=60000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 5
+Time=64000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=1, jump_addr=20, pc= 5
+Time=68000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=1, jump_addr=20, pc=20
+Time=72000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr=20, pc=20
+Time=76000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr=20, pc=21
+Time=84000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr=20, pc=22
+Time=92000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr=20, pc=23
+Simulation finished.
+$finish called at time : 96 ns : File "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sim_1/new/tb_Program_counter.v" Line 79

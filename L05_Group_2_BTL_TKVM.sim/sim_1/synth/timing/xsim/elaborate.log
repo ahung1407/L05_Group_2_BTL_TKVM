@@ -1,0 +1,23 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot RISC_CPU_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.RISC_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Program_counter
+Compiling module xil_defaultlib.addr_mux
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.Instruction_Register
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Accumulator
+Compiling module xil_defaultlib.RISC_CPU
+Compiling module xil_defaultlib.RISC_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISC_CPU_tb_time_synth

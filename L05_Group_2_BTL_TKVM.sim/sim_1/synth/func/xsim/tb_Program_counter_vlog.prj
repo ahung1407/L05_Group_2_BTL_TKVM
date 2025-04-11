@@ -1,0 +1,8 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_Program_counter_func_synth.v" \
+"../../../../../L05_Group_2_BTL_TKVM.srcs/sources_1/new/Program_counter.v" \
+"../../../../../L05_Group_2_BTL_TKVM.srcs/sim_1/new/tb_Program_counter.v" \
+
+# Do not sort compile order
+nosort

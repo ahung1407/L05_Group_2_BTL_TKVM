@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Apr 11 10:54:56 2025
+# Process ID: 23964
+# Current directory: D:/Minh_Hung/L05_Group_2_BTL_TKVM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2680 D:\Minh_Hung\L05_Group_2_BTL_TKVM\L05_Group_2_BTL_TKVM.xpr
+# Log file: D:/Minh_Hung/L05_Group_2_BTL_TKVM/vivado.log
+# Journal file: D:/Minh_Hung/L05_Group_2_BTL_TKVM\vivado.jou
+# Running On        :MINH-HUNG
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :AMD Ryzen 7 8745H w/ Radeon 780M Graphics
+# CPU Frequency     :3793 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :25028 MB
+# Swap memory       :1610 MB
+# Total Virtual     :26638 MB
+# Available Virtual :9016 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source RISC_CPU_tb.tcl
+close_sim
+launch_simulation
+source RISC_CPU_tb.tcl
+close_sim
+launch_simulation
+source RISC_CPU_tb.tcl
+close_sim
+launch_simulation
+source RISC_CPU_tb.tcl
+close_sim
+launch_simulation
+source RISC_CPU_tb.tcl
+close_sim
+launch_simulation
+source RISC_CPU_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source RISC_CPU_tb.tcl
+close_sim

@@ -1,0 +1,371 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Apr  8 18:48:35 2025
+# Process ID: 21044
+# Current directory: D:/Minh_Hung/L05_Group_2_BTL_TKVM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13904 D:\Minh_Hung\L05_Group_2_BTL_TKVM\L05_Group_2_BTL_TKVM.xpr
+# Log file: D:/Minh_Hung/L05_Group_2_BTL_TKVM/vivado.log
+# Journal file: D:/Minh_Hung/L05_Group_2_BTL_TKVM\vivado.jou
+# Running On        :MINH-HUNG
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :AMD Ryzen 7 8745H w/ Radeon 780M Graphics
+# CPU Frequency     :3793 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :25028 MB
+# Swap memory       :1610 MB
+# Total Virtual     :26638 MB
+# Available Virtual :13562 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:25 . Memory (MB): peak = 1559.656 ; gain = 459.672
+update_compile_order -fileset sources_1
+close [ open D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/top.v w ]
+add_files D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/top.v
+update_compile_order -fileset sources_1
+set_property top top [current_fileset]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/utils_1/imports/synth_1/Program_counter.dcp with file D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.runs/synth_1/Program_counter.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Tue Apr  8 18:59:41 2025] Launched synth_1...
+Run output will be captured here: D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Device 21-9227] Part: xc7z020clg400-1 does not have CEAM library.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2011.930 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:3]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:3]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:27]
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:27]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:27]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:27]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:28]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:28]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:28]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:29]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:29]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:29]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:30]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:30]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:30]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:31]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:31]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:31]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:32]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:32]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:32]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:33]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:33]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:33]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:34]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:34]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:34]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:35]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:35]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:35]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:36]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:36]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:36]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:37]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:37]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:37]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:38]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:38]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:38]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:41]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:41]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:41]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'sys_clk_pin'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:42]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:42]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-clock [get_clocks sys_clk_pin]'. [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc:42]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [D:/Minh_Hung/L05_Group_2_BTL_TKVM/Arty-Z7-20-Extension-board-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2698.359 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 2708.766 ; gain = 1089.910
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+launch_simulation -mode post-synthesis -type functional
+Command: launch_simulation  -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'tb_Program_counter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-25] write_verilog -mode funcsim -nolib -force -file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/func/xsim/tb_Program_counter_func_synth.v"
+INFO: [SIM-utils-36] Netlist generated:D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/func/xsim/tb_Program_counter_func_synth.v
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_Program_counter' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/func/xsim'
+"xvlog --incr --relax -prj tb_Program_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/func/xsim/tb_Program_counter_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Program_counter
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Program_counter
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'Program_counter' [D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Program_counter.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sim_1/new/tb_Program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Program_counter
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/func/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot tb_Program_counter_func_synth xil_defaultlib.tb_Program_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot tb_Program_counter_func_synth xil_defaultlib.tb_Program_counter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Program_counter
+Compiling module xil_defaultlib.tb_Program_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_Program_counter_func_synth
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2822.379 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/func/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_Program_counter_func_synth -key {Post-Synthesis:sim_1:Functional:tb_Program_counter} -tclbatch {tb_Program_counter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_Program_counter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Starting simulation...
+Time=0 | reset=0, inc_pc=0, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= x
+Time=8000 | reset=1, inc_pc=0, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 0
+Time=24000 | reset=0, inc_pc=0, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 0
+Time=32000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 0
+Time=36000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 1
+Time=44000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 2
+Time=48000 | reset=0, inc_pc=1, SKZ=1, iszero=1, JUMP=0, jump_addr= 0, pc= 2
+Time=52000 | reset=0, inc_pc=1, SKZ=1, iszero=1, JUMP=0, jump_addr= 0, pc= 4
+Time=56000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 4
+Time=60000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 5
+Time=64000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=1, jump_addr=20, pc= 5
+Time=68000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=1, jump_addr=20, pc=20
+Time=72000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr=20, pc=20
+Time=76000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr=20, pc=21
+Time=84000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr=20, pc=22
+Time=92000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr=20, pc=23
+Simulation finished.
+$finish called at time : 96 ns : File "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sim_1/new/tb_Program_counter.v" Line 79
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_Program_counter_func_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 2866.312 ; gain = 43.934
+launch_simulation -mode post-synthesis -type timing
+Command: launch_simulation  -mode post-synthesis -type timing
+INFO: [Vivado 12-12493] Simulation top is 'tb_Program_counter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching post-synthesis timing simulation in 'D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-25] write_verilog -mode timesim -nolib -sdf_anno true -force -file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/timing/xsim/tb_Program_counter_time_synth.v"
+INFO: [SIM-utils-27] Writing SDF file...
+INFO: [SIM-utils-28] write_sdf -mode timesim -process_corner slow -force -file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/timing/xsim/tb_Program_counter_time_synth.sdf"
+INFO: [SIM-utils-36] Netlist generated:D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/timing/xsim/tb_Program_counter_time_synth.v
+INFO: [SIM-utils-37] SDF generated:D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/timing/xsim/tb_Program_counter_time_synth.sdf
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_Program_counter' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/timing/xsim'
+"xvlog --incr --relax -prj tb_Program_counter_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/timing/xsim/tb_Program_counter_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Program_counter
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Program_counter
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'Program_counter' [D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Program_counter.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sim_1/new/tb_Program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Program_counter
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/timing/xsim'
+"xelab --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_Program_counter_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_Program_counter xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_Program_counter_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_Program_counter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Program_counter
+Compiling module xil_defaultlib.tb_Program_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_Program_counter_time_synth
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.sim/sim_1/synth/timing/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_Program_counter_time_synth -key {Post-Synthesis:sim_1:Timing:tb_Program_counter} -tclbatch {tb_Program_counter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_Program_counter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Starting simulation...
+Time=0 | reset=0, inc_pc=0, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= x
+Time=8000 | reset=1, inc_pc=0, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 0
+Time=24000 | reset=0, inc_pc=0, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 0
+Time=32000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 0
+Time=36000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 1
+Time=44000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 2
+Time=48000 | reset=0, inc_pc=1, SKZ=1, iszero=1, JUMP=0, jump_addr= 0, pc= 2
+Time=52000 | reset=0, inc_pc=1, SKZ=1, iszero=1, JUMP=0, jump_addr= 0, pc= 4
+Time=56000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 4
+Time=60000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr= 0, pc= 5
+Time=64000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=1, jump_addr=20, pc= 5
+Time=68000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=1, jump_addr=20, pc=20
+Time=72000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr=20, pc=20
+Time=76000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr=20, pc=21
+Time=84000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr=20, pc=22
+Time=92000 | reset=0, inc_pc=1, SKZ=0, iszero=0, JUMP=0, jump_addr=20, pc=23
+Simulation finished.
+$finish called at time : 96 ns : File "D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sim_1/new/tb_Program_counter.v" Line 79
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_Program_counter_time_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2965.641 ; gain = 77.219
+close [ open D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Accumulator.v w ]
+add_files D:/Minh_Hung/L05_Group_2_BTL_TKVM/L05_Group_2_BTL_TKVM.srcs/sources_1/new/Accumulator.v
+update_compile_order -fileset sources_1
+current_sim simulation_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
